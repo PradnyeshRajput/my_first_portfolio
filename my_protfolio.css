@@ -1,0 +1,94 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9fafc;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: #1e3a8a;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+header p {
+  margin: 5px 0 15px;
+  font-size: 1.2rem;
+}
+nav {
+  margin-top: 10px;
+}
+nav a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+nav a:hover {
+  color: #facc15;
+}
+
+section {
+  padding: 40px;
+  max-width: 900px;
+  margin: 30px auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+h2 {
+  border-left: 5px solid #1e3a8a;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  color: #1e3a8a;
+}
+
+.skills span {
+  display: inline-block;
+  background: #1e40af;
+  color: #fff;
+  padding: 6px 12px;
+  margin: 5px;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: background 0.3s;
+}
+.skills span:hover {
+  background: #facc15;
+  color: #000;
+}
+
+a {
+  color: #1e40af;
+  text-decoration: none;
+  transition: color 0.3s, text-decoration 0.3s;
+}
+a:hover {
+  color: #facc15;
+  text-decoration: underline;
+}
+
+.newid {
+  color: white;
+  text-decoration: none;
+}
+.newid1 {
+  color: black;
+  text-decoration: none;
+}
+
+footer {
+  background: #1e3a8a;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+  font-size: 0.9rem;
+}
